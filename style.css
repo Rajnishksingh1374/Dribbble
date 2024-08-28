@@ -211,22 +211,53 @@ h2{
 
 /* twin */
 .twin{
-    height: 80vh;
+    height: 115vh;
     width: 100%;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid;
-    background: orange;
+    border: none;
+    background: rgb(230, 192, 120);
 }
 .twin h1{
-    font-size: 50px;
+    font-size: 70px;
+}
+
+.twin .twinP{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -70px;
+
+
 }
 
 .twin .twinButton{
       display: flex;
+      gap: 18px;
+      margin-top: -40px;
+      
+      
+}
+.twin .twinButton button{
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.twin .Bb1{
+    background: black;
+    color: white;
+    
+}
+.twin p{
+    font-size: 25px;
+    margin-top: -50px;
+}
+.twin p a{
+    text-decoration: underline;
 }
 
 
@@ -250,4 +281,14 @@ h2{
 }
 .bot3{
     font-size: 30px;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: #f2f2f2;
+    background-color: rgb(46, 45, 45);
+   
 }
